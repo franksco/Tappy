@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="ObelixProB.ttf">
+        <array key="ObelixPro-B.ttf">
             <string>ObelixPro-Bold</string>
         </array>
     </customFonts>
@@ -30,8 +30,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="i71-Ek-FvP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tappy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-MD-w82">
-                                <rect key="frame" x="16" y="20" width="343" height="46"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TAPPY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-MD-w82">
+                                <rect key="frame" x="16" y="20" width="343" height="75"/>
                                 <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -42,35 +42,35 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="96e-wN-ILN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="29"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="START GAME">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEB-NT-asw">
-                                <rect key="frame" x="16" y="401" width="343" height="162"/>
+                                <rect key="frame" x="16" y="369" width="343" height="194"/>
                                 <color key="backgroundColor" red="1" green="0.43866225654727242" blue="0.61119423645599436" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="29"/>
                                 <state key="normal" title="TAP ME">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPt-8l-vTV">
-                                <rect key="frame" x="16" y="138" width="343" height="100"/>
+                                <rect key="frame" x="16" y="138" width="343" height="90"/>
                                 <color key="backgroundColor" red="0.99658012597244849" green="1" blue="0.97919720662933529" alpha="0.51171875" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="QoM-NR-qas"/>
+                                    <constraint firstAttribute="height" constant="90" id="QoM-NR-qas"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="29"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="137-T5-9Nh">
-                                <rect key="frame" x="16" y="255" width="343" height="100"/>
+                                <rect key="frame" x="16" y="255" width="343" height="90"/>
                                 <color key="backgroundColor" red="0.99658012597244849" green="1" blue="0.97919720662933529" alpha="0.51171875" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="6By-JC-fNb"/>
+                                    <constraint firstAttribute="height" constant="90" id="6By-JC-fNb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="29"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
