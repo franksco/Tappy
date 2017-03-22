@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -29,35 +30,75 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="i71-Ek-FvP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tappy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-MD-w82">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tappy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-MD-w82">
                                 <rect key="frame" x="16" y="20" width="343" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpG-b2-NAg">
-                                <rect key="frame" x="16" y="617" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpG-b2-NAg">
+                                <rect key="frame" x="16" y="571" width="343" height="76"/>
+                                <color key="backgroundColor" red="1" green="0.43866225654727242" blue="0.61119423645599436" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="96e-wN-ILN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="24"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="START GAME">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEB-NT-asw">
-                                <rect key="frame" x="16" y="579" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEB-NT-asw">
+                                <rect key="frame" x="16" y="401" width="343" height="162"/>
+                                <color key="backgroundColor" red="1" green="0.43866225654727242" blue="0.61119423645599436" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="24"/>
                                 <state key="normal" title="TAP ME">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPt-8l-vTV">
+                                <rect key="frame" x="16" y="138" width="343" height="100"/>
+                                <color key="backgroundColor" red="0.99658012597244849" green="1" blue="0.97919720662933529" alpha="0.51171875" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="QoM-NR-qas"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="29"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="137-T5-9Nh">
+                                <rect key="frame" x="16" y="255" width="343" height="100"/>
+                                <color key="backgroundColor" red="0.99658012597244849" green="1" blue="0.97919720662933529" alpha="0.51171875" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="6By-JC-fNb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="29"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="IL6-MD-w82" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2YS-mO-YJC"/>
+                            <constraint firstItem="IL6-MD-w82" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3do-i6-aU8"/>
+                            <constraint firstItem="qPt-8l-vTV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6jU-XY-6lg"/>
+                            <constraint firstItem="rpG-b2-NAg" firstAttribute="top" secondItem="CEB-NT-asw" secondAttribute="bottom" constant="8" id="Cvu-y5-OhY"/>
                             <constraint firstItem="i71-Ek-FvP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="E9h-Mc-XNN"/>
                             <constraint firstItem="i71-Ek-FvP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FRI-ph-CR6"/>
+                            <constraint firstItem="qPt-8l-vTV" firstAttribute="top" secondItem="IL6-MD-w82" secondAttribute="bottom" constant="72" id="K0i-p7-ykO"/>
+                            <constraint firstItem="qPt-8l-vTV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PiS-Ma-8Z2"/>
+                            <constraint firstItem="CEB-NT-asw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="QKF-8T-EPw"/>
+                            <constraint firstItem="137-T5-9Nh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="SOH-gg-LsY"/>
+                            <constraint firstItem="137-T5-9Nh" firstAttribute="top" secondItem="qPt-8l-vTV" secondAttribute="bottom" constant="17" id="bIi-Lm-qlu"/>
+                            <constraint firstItem="rpG-b2-NAg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cFc-hd-kqI"/>
+                            <constraint firstItem="rpG-b2-NAg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dIh-GW-LnC"/>
+                            <constraint firstItem="CEB-NT-asw" firstAttribute="top" secondItem="137-T5-9Nh" secondAttribute="bottom" constant="46" id="dMC-gU-rMQ"/>
+                            <constraint firstItem="IL6-MD-w82" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eCh-K4-gX8"/>
+                            <constraint firstItem="CEB-NT-asw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hrf-8U-Qys"/>
+                            <constraint firstItem="137-T5-9Nh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="s4M-rR-uTP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rpG-b2-NAg" secondAttribute="bottom" constant="20" id="v3h-iO-8hK"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="i71-Ek-FvP" secondAttribute="bottom" id="v4J-mw-2Io"/>
+                            <constraint firstItem="CEB-NT-asw" firstAttribute="top" secondItem="137-T5-9Nh" secondAttribute="bottom" constant="46" id="yck-ln-AzO"/>
                             <constraint firstAttribute="trailing" secondItem="i71-Ek-FvP" secondAttribute="trailing" id="z2k-eH-tCc"/>
                         </constraints>
                     </view>
