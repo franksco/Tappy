@@ -22,6 +22,7 @@
 		D928B1E41E8337F700E0F6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D928B1E71E8337F700E0F6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D928B1E91E8337F700E0F6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D928B1EF1E8339BE00E0F6C5 /* ObelixProB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ObelixProB.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				D928B1E41E8337F700E0F6C5 /* Assets.xcassets */,
 				D928B1E61E8337F700E0F6C5 /* LaunchScreen.storyboard */,
 				D928B1E91E8337F700E0F6C5 /* Info.plist */,
+				D928B1EF1E8339BE00E0F6C5 /* ObelixProB.ttf */,
 			);
 			path = Tappy;
 			sourceTree = "<group>";
