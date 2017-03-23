@@ -47,14 +47,22 @@
                                 <state key="normal" title="START GAME">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="StartGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQY-pZ-yjh"/>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3H-fx-yO8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEB-NT-asw">
-                                <rect key="frame" x="16" y="369" width="343" height="194"/>
+                                <rect key="frame" x="16" y="353" width="343" height="210"/>
                                 <color key="backgroundColor" red="1" green="0.43866225654727242" blue="0.61119423645599436" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="ObelixPro-Bold" family="ObelixPro" pointSize="29"/>
                                 <state key="normal" title="TAP ME">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="TapMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDQ-5O-bU5"/>
+                                    <action selector="tapMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KjR-FM-AEv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPt-8l-vTV">
                                 <rect key="frame" x="16" y="138" width="343" height="90"/>
@@ -102,6 +110,13 @@
                             <constraint firstAttribute="trailing" secondItem="i71-Ek-FvP" secondAttribute="trailing" id="z2k-eH-tCc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="StartGame" destination="rpG-b2-NAg" id="2Lq-Xq-92R"/>
+                        <outlet property="scoreLabel" destination="137-T5-9Nh" id="5rs-g2-g52"/>
+                        <outlet property="startGameButton" destination="rpG-b2-NAg" id="z8g-cl-Dga"/>
+                        <outlet property="tapMeButton" destination="CEB-NT-asw" id="EqF-Ds-T04"/>
+                        <outlet property="timerLabel" destination="qPt-8l-vTV" id="pd3-n5-8d4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
