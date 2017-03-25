@@ -48,8 +48,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="StartGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQY-pZ-yjh"/>
-                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3H-fx-yO8"/>
+                                    <action selector="StartGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efB-dJ-pEn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEB-NT-asw">
@@ -60,8 +59,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="TapMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDQ-5O-bU5"/>
-                                    <action selector="tapMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KjR-FM-AEv"/>
+                                    <action selector="TapMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ux-2R-xuA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPt-8l-vTV">
@@ -111,16 +109,15 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="StartGame" destination="rpG-b2-NAg" id="2Lq-Xq-92R"/>
                         <outlet property="scoreLabel" destination="137-T5-9Nh" id="5rs-g2-g52"/>
-                        <outlet property="startGameButton" destination="rpG-b2-NAg" id="z8g-cl-Dga"/>
-                        <outlet property="tapMeButton" destination="CEB-NT-asw" id="EqF-Ds-T04"/>
+                        <outlet property="startGameButton" destination="rpG-b2-NAg" id="3EQ-HC-P1D"/>
+                        <outlet property="tapMeButton" destination="CEB-NT-asw" id="gjl-bX-LXk"/>
                         <outlet property="timerLabel" destination="qPt-8l-vTV" id="pd3-n5-8d4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+            <point key="canvasLocation" x="-1062" y="118"/>
         </scene>
     </scenes>
     <resources>
